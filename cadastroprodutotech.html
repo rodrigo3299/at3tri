@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIAP TECH</title>
+
+    <!-- Inclua o CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<!-- Barra de Navegação Bootstrap -->
+<center>
+
+</center>
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">FIAP TECH </a>
+      <form class="d-flex" role="search">
+        <li class="nav-item">
+            <a class="nav-link" href="/cadastrousuario">Cadastro Usuario</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/cadastroprodutotech">Cadastro Produto</a>
+          </li>
+         
+      </form>
+    </div>
+  </nav>
+
+
+
+  </nav>
+  
+ 
+
+<!-- Área Principal -->
+
+        <!-- Formulário de Cadastro de Pessoa com Bootstrap -->
+<div class="container mt-5">
+    <h1>Cadastro do Produto</h1>
+    <form action="/cadastroprodutotech" method="post">
+    <div class="form-group">
+    <label for="codigo">Codigo:</label>
+    <input type="text" class="form-control" id="codigo" name="codigo" placeholder="codigo">
+    </div>
+    <div class="form-group">
+    <label for="descricao">Descrição:</label>
+    <input type="text" class="form-control" id="descricao" name="descricao" placeholder="descricao">
+    </div>
+    <div class="form-group">
+    <label for="fornecedor">Fornecedor:</label>
+    <input type="text" class="form-control" id="fornecedor" name="fornecedor" placeholder="fornecedor">
+    </div>
+    <div class="form-group">
+    <label for="data_fabricacao">Data fabricação:</label>
+    <input type="text" class="form-control" id="data_fabricaca" name="data_fabricacao" placeholder="data_fabricação">
+    </div>
+    <div class="form-group">
+    <label for="quantidade_estoque">Quantidade estoque:</label>
+    <input type="text" class="form-control" id="quantidade_estoque" name="quantidade_estoque" placeholder="quantidade_estoque">
+    </div>
+<center></center>
+    </div>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+</center>
+</div>
