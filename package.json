@@ -5,8 +5,7 @@
   "main": "cadFF.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon ./cadFF.js localhost:3000"
-
+    "start": "nodemon ./cadFF.js localhost:3000"
   },
   "keywords": [],
   "author": "",
